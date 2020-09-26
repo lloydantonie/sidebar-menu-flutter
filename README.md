@@ -1,4 +1,4 @@
-# sidebar_menu
+## Sidebar Menu
 
 A new Flutter application.
 
