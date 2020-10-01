@@ -78,7 +78,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                         ListTile(
                           title: Text(
                             "Lloyd Reyes",
-                            style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.w800),
+                            style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.w800),
                           ),
                           subtitle: Text(
                             "reyeslloyd.202@gmail.com",
