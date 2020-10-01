@@ -84,7 +84,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                             "reyeslloyd.202@gmail.com",
                             style: TextStyle(
                                 color: Color(0xFFFFB74D),
-                                fontSize: 23
+                                fontSize: 20
                             ),
                           ),
                           leading: CircleAvatar(
