@@ -64,7 +64,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
             top: 0,
             bottom: 0,
             left: isSideBarOpenedAsync.data ? 0 : -screenWidth,
-            right: isSideBarOpenedAsync.data ? 0 : screenWidth - 45,
+            right: isSideBarOpenedAsync.data ? 0 : screenWidth - 43,
             child: Row(
               children: <Widget>[
                 Expanded(
@@ -73,19 +73,19 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                     color: const Color(0xFFFF9800),
                     child: Column(
                       children: <Widget>[
-                        SizedBox(
-                            height: 100),
+                        SizedBox(height: 100),
                         ListTile(
                           title: Text(
                             "Lloyd Reyes",
-                            style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.w800),
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 25,
+                                fontWeight: FontWeight.w800),
                           ),
                           subtitle: Text(
                             "reyeslloyd.202@gmail.com",
                             style: TextStyle(
-                                color: Color(0xFFFFB74D),
-                                fontSize: 20
-                            ),
+                                color: Color(0xFFFFB74D), fontSize: 20),
                           ),
                           leading: CircleAvatar(
                             child: Icon(
